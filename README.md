@@ -1,5 +1,3 @@
-
-````md
 # 🌱 SuperGrow – Smart Mess Management System  
 ### 🚀 From Guesswork → Data-Driven Meal Planning
 
@@ -34,7 +32,7 @@ D -->|Yes| E[Save in Database]
 D -->|No| F[Reject]
 E --> G[Admin Dashboard]
 G --> H[Kitchen Planning]
-````
+```
 
 ---
 
@@ -54,12 +52,12 @@ AdminDashboard --> Kitchen
 
 ## ⚡ Key Features
 
-* 🍽️ Meal Selection System
-* ⏱️ Time-Based Booking Logic
-* 📊 Real-Time Meal Tracking
-* 📅 Weekly Menu Management
-* 🔐 Secure Authentication
-* ⚡ Lightweight Backend
+- 🍽️ Meal Selection System  
+- ⏱️ Time-Based Booking Logic  
+- 📊 Real-Time Meal Tracking  
+- 📅 Weekly Menu Management  
+- 🔐 Secure Authentication  
+- ⚡ Lightweight Backend  
 
 ---
 
@@ -78,12 +76,10 @@ UpdateCount --> AdminView[Admin Dashboard]
 
 ## 🛠️ Tech Stack
 
-```
-Frontend   → HTML | CSS | JavaScript
-Backend    → PHP (Core)
-Database   → MySQL
-Server     → Apache (XAMPP)
-```
+Frontend   → HTML | CSS | JavaScript  
+Backend    → PHP (Core)  
+Database   → MySQL  
+Server     → Apache (XAMPP)  
 
 ---
 
@@ -119,11 +115,11 @@ MEAL_INTENTS {
 
 ## 🔥 Highlights
 
-* 💡 Real-world problem solving
-* 🌍 Reduces food wastage
-* 📊 Data-driven decisions
-* ⚙️ Scalable system
-* 🚀 Deployment ready
+- 💡 Real-world problem solving  
+- 🌍 Reduces food wastage  
+- 📊 Data-driven decisions  
+- ⚙️ Scalable system  
+- 🚀 Deployment ready  
 
 ---
 
@@ -146,39 +142,13 @@ timeline
 git clone https://github.com/Alok8910/supergrow.git
 ```
 
-1. Move project to `htdocs`
-2. Import database
-3. Update `/app/config.php`
-4. Start Apache & MySQL
-5. Open `http://localhost/supergrow`
+1. Move project to `htdocs`  
+2. Import database  
+3. Update `/app/config.php`  
+4. Start Apache & MySQL  
+5. Open `http://localhost/supergrow`  
 
 ---
 
 ## 👨‍💻 Author
-
 **Alok Kumar**
-
-````
-
----
-
-## 🚨 Why your error happened (simple)
-- ❌ Diagram not inside ```mermaid  
-- ❌ Emoji inside diagram text sometimes breaks parsing  
-- ❌ Missing spacing between sections  
-
----
-
-## 💡 Pro Tip (Hackathon Winning Move)
-After fixing this:
-- Add **2–3 screenshots**
-- Add **demo video link**
-- Add **live URL (if possible)**
-
-That alone can push you ahead of others.
-
----
-
-If you want next level:
-:contentReference[oaicite:0]{index=0} or **:contentReference[oaicite:1]{index=1}**
-````
